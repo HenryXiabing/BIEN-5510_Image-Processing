@@ -1,5 +1,6 @@
 % rgb_image.m - create red/green/blue color image
 % Put this program and the image in the same folder
+% Run in MATLAB
 function rgb_image()
 
     % ---- specify image file explicitly ----
@@ -42,3 +43,4 @@ function rgb_image()
     fprintf('Total number of pixels: %d\n', rows * cols);
 
 end
+
