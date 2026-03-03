@@ -1,5 +1,7 @@
 %% Problem 5 – Lynn Lake 2019 Surface Water Estimation
 % 5-seed region growing version
+% Marquette University & MCW
+% Bing Xia.
 
 clear; clc; close all;
 
