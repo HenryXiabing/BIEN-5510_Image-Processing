@@ -1,5 +1,7 @@
 %% Problem 4 – Lynn Lake Water Area Estimation
 % MATLAB region-growing approach to estimate total acres of surface water
+% Marquette University & MCW
+% Bing Xia.
 
 clear; clc; close all;
 
