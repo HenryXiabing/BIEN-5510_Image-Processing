@@ -1,4 +1,6 @@
 %% Problem 6: Color Image Filtering – Sunflower
+% Marquette University & MCW
+% Bing Xia.
 
 clear; clc; close all;
 
@@ -26,10 +28,10 @@ subplot(1,2,2); imshow(I_smooth); title('Gaussian Smoothed Image (Large Sigma)')
 
 % Define Laplacian kernels
 % Eq (3-29)
-L1 = [0 -1 0; -1 4 -1; 0 -1 0];
+L1 = [0  1  0; 1 -4  1; 0  1  0];
 
 % Eq (3-30)
-L2 = [-1 -1 -1; -1 8 -1; -1 -1 -1];
+L2 = [1  1  1; 1 -8  1; 1  1  1];
 
 % Add 1 to center to preserve low-frequency content
 L1_sharp = L1 + eye(3);
